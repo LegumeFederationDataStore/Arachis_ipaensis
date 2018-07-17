@@ -1,0 +1,53 @@
+(NOTE: Read through to the end of this file. Recent changes are noted at the end of the file.)
+Steven Cannon
+
+---------
+Initial notes:
+March 15, 2014
+
+Files in this directory include the scaffold assemblies for Arachis ipaensis
+(Aipa2s.split6.fa.gz), and the pseudomolecule assemblies, version 1.0 for the
+genome. The intact pseudomolecules plus the remaining scaffolds are in
+the fasta file Araip_v1.0.20140821.fa.gz
+
+Directory legend:
+  RM - RepeatMask-ed, using Arachis repeats provided by David Bertioli et al.
+  
+  by_scaff - The pseudomolecule sequences are in multifasta format, in scaffold
+  chunks. Definition lines give scaffold name and orientation.
+  
+  Not marked "by_scaff" - these pseudomolecule sequences are "entire", with a
+  single definition line at the top, e.g. >Araip.B01.
+
+In the "entire" versions (not marked "by_scaff"), the scaffold sequences have
+been concatenated (after ordering and orienting), separated by spacer sequences
+of 10,000 "n"s.
+
+---------
+NOTE added May 20, 2014: the scaffold file Aipa2s.split2.fa has been replaced with
+an updated file Aipa2s.split5.fa to reflect the scaffolds used in the 1.0 assemblies.
+The earlier file contained some "split" scaffolds with different split locations
+than in the final assembly.
+
+---------
+NOTE added August 24, 2014:
+The scaffold Aipa130 in Araip.B_unplaced was redundant with Aipa130_1 in Araip.B09
+and Aipa130_2 in Araip.B05, and has been removed from the August 21 version of Araip.B_unplaced
+in both Araip_v1.0_by_scaff/ and Araip_v1.0_by_scaff_RM/ .
+
+An additional set of 640 very poor-quality scffolds were removed from the 2014-08-24 version.
+These scaffolds had no predicted gene models, and < 2000 nt of [ATCG] or > 80% Ns.
+
+File Aipa2s.split6.fa replaces Aipa2s.split5.fa, consistent with the August 24 changes.
+This contains all scaffolds, regardless of quality or size.
+File Araip_v1.0_20140908.fa.gz contains only the scaffolds used in the main assembly (i.e.
+pseudomolecules and unplaced scaffolds).
+
+---------
+NOTE added July 13, 2015:
+The following "split" saffolds were found to be redundant in the
+"all scaffolds" file, Aipa2s.split6.fa. These were not used in the pseudomolecule assembly,
+and so have been removed from a patched "all scaffolds" file, Aipa2s.split7.fa :
+  Aipa102_3 Aipa119_3 Aipa13_3 Aipa151_3 Aipa15_3 Aipa1_3 Aipa21_3 Aipa232_3
+  Aipa246_3 Aipa271_3 Aipa2_3 Aipa32_3 Aipa69_3 Aipa81_5 Aipa90_4 Aipa90_5 Aipa9_3
+

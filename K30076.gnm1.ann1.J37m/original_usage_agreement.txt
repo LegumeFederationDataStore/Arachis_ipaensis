@@ -1,0 +1,25 @@
+Arachis genome assemblies: data usage agreement
+
+As a public service, the Peanut Genome Consortium (PGC) is making the
+Arachis duranensis (accession V14167) and Arachis ipaensis
+(accession K30076) genome sequence and annotations available before scientific 
+publication according to the Ft. Lauderdale Accord. For public access we are making
+these data sets from the Peanut Genome Project and our collaborators prior to 
+peer-reviewed publication of the data. We are making this data
+available with the expectation and desire to publish this data in a reasonable
+time without preemption by other groups. By accessing these data, you agree
+not to publish any articles containing analyses of genes or genomic data
+on a whole genome or chromosome scale prior to publication by the PGC
+and/or its collaborators of a comprehensive genome analysis ("Reserved
+Analyses"). "Reserved analyses" include the identification of complete (whole
+genome) sets of genomic features such as genes, gene families, regulatory
+elements, repeat structures, GC content, or any other genome feature, and
+whole-genome- or chromosome- scale comparisons with other species
+including other peanut species and cultivars. For specific questions about
+data use please send your inquiry to Peanut Genome Consortium via
+http://www.peanutbase.org/contact.
+
+If you will be employing the data for non-reserved analyses, such as cloning
+a gene of interest, designing mapping panels or to analyze a gene family etc.,
+please reference the "Peanut Genome Project" as your citation.
+

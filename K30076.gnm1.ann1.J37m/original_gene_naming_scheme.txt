@@ -1,0 +1,72 @@
+Gene naming for peanut
+Draft, 2014-05-23
+
+Objective: replace peanut MAKER names with more usable ones, e.g. first column to second column:
+  snap_masked-Araip.B10-processed-gene-955.6-mRNA-1 Araip.Q49I.K30076.a1.M1
+  snap_masked-Araip.B10-processed-gene-96.35-mRNA-1 Araip.8QIG.K30076.a1.M1
+
+Naming scheme:
+The naming scheme will basically follow the pattern that JGI and Phytozome have been  
+using recently on genomes produced and annotated by JGI, with a couple of modifications. 
+The JGI scheme has: 
+  o A species prefix, e.g. Glyma.  for Glycine max 
+  o A central unique identifier, e.g. 10g000100  or  01g000100
+  o Optionally, a splice variant number, e.g. .1  .2  .3
+  o A namespace, conveying genotype, assembly, and annotation versions
+    e.g. .Wm82.a2.v1 . This may be joined to the central ID, or carried along on the side.
+For example:
+  o Glyma.01g000100.1   ID=Glyma.01g000100.1.Wm82.a2.v1
+  o Glyma.10g000100.1   ID=Glyma.10g000100.1.Wm82.a2.v1
+
+For peanut, we will make two changes: 
+  1) Instead of a central unique identifier with chromosome and ordinal number
+     (01g000100 is the first gene on chr 1; 10g298900 is the last gene on chr 10),
+     we will use a short random string that doesn't convey chromosome or position.
+     The reason is that the Arachis assemblies are quite fragmented, and the relative
+     locations of many genes will change in subsequent versions. The chromosomal
+     locations of some genes will also change - for example, where scaffold breaks
+     are not precisely correct or where new scaffolds are incorporated.
+  2) In the annotation version (v1), we will include a short mnemonic to indicate
+     annotation method or source, e.g. M1 for MAKER or vB1 for BGI.
+  
+The unique gene/locus identifier will be a randomly generated five-character string
+composed from digits 0-9 and letters A-Z (omitting letter O to avoid confusion
+with zero; and including at least one number internally, to avoid words). 
+
+Splice variants will be indicated with an integer suffix on the identifier (1,2,3, ...). 
+
+The namespace of a set of gene models will be distinguished with a string 
+consisting of the genotype, assembly version, and annotation version 
+(the version including software-abbreviation and number), e.g. V14167.a1.M1 
+where genotype=V14167, annotation=a1, version=M1 (M for MAKER, B for BGI etc.;
+mnemonics assigned first-come, first-served; could be longer than one char if need-be). 
+
+The prefix will be species name abbreviated in 3-2 pattern, e.g. Aradu or Araip
+for Arachis duranensis and Arachis ipaensis, respectively. Following the pattern of 
+gene IDs from JGI, a period will separate the species prefix and the unique locus 
+identifier: "Aradu." or "Araip."
+
+The namespace string should be associated with the locus or gene model identifier
+to avoid uncertainty about genotype, assembly, or annotation. This association 
+could be made by concatenating the gene model or locus and namespace,
+e.g. Adur.F0U1A.V14167.a1.M1
+or the namespace string could be reported in a paper or a genome browser track,
+as long as there is no ambiguity about namespace.
+
+Examples:
+  o Aradu.G88RX                  Locus - associated contextually 
+                                   with annotation namespace V14167.a1.v1
+  o Aradu.G88RX.V14167.a1.M1    Locus - associated with namespace by concatenation
+  o Araip.7JI3A.1                Gene model, splice variant 1, associated contextually
+                                   with annotation namespace V14167.a1.v1
+  o Araip.7JI3A.1.V14167.a1.M1  Gene model, splice variant 1, associated by
+                                   concatenation with annotation namespace
+
+Efforts will be made to keep the core locus/gene ID stable across assemblies 
+and annotations, but the scheme also allows for addition or removal or re-naming
+where warranted. 
+
+In general, distinct species will receive distinct IDs - not attempting to assign
+the same IDs to orthologs (because orthology relationships may be complex due to 
+private duplications and losses).
+

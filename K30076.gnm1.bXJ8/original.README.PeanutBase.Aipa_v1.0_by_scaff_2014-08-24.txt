@@ -1,0 +1,17 @@
+March 15, 2014
+
+Files Araip.B01 - Araip.B10 and Araip.B_unplaced in this directory
+are the pseudomolecule assemblies, version 1 for 
+Arachis ipaensis. 
+
+By using these files, you or a collaborator have accepted the
+Usage Agreement (usage_agreement.txt) accompanying these files.
+
+NOTE added August 24, 2014:
+The scaffold Aipa130 in Araip.B_unplaced was redundant with Aipa130_1 in Araip.B09
+and Aipa130_2 in Araip.B05, and has been removed from the August 24 version of Araip.B_unplaced
+in both Araip_v1.0_by_scaff/ and Araip_v1.0_by_scaff_RM/ .
+
+An additional set of 640 very poor-quality scffolds were removed from the 2014-08-24 version.
+These scaffolds had no predicted gene models, and < 2000 nt of [ATCG] or > 80% Ns.
+
