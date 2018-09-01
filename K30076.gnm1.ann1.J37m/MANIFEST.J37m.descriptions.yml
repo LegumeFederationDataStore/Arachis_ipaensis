@@ -1,12 +1,12 @@
 # filename_in_this_repository: description
-  araip.K30076.gnm1.ann1.J37m.cds.fna.gz: Coding sequence
-  araip.K30076.gnm1.ann1.J37m.genemodels_lowqual_or_TE.gff.gz: Gene models, low quality or transposable elements
-  araip.K30076.gnm1.ann1.J37m.gene_models_main.gff.gz: Gene models, primary
-  araip.K30076.gnm1.ann1.J37m.info_AED_scores.txt.gz: quality scores
-  araip.K30076.gnm1.ann1.J37m.info_annot_AHRD.txt.gz: annotation from the AHRD pipeline
-  araip.K30076.gnm1.ann1.J37m.info_annot_AHRD_slim.txt.gz: annotation from the AHRD pipeline - simplified
-  araip.K30076.gnm1.ann1.J37m.protein.faa.gz: protein sequences 
-  araip.K30076.gnm1.ann1.J37m.protein_annot_AHRD.faa.gz: protein sequences with AHRD functional descriptions
-  araip.K30076.gnm1.ann1.J37m.protein_lowqual_or_TE.faa.gz: protein sequences - low quality or transposable elements   
-  araip.K30076.gnm1.ann1.J37m.transcript.fna.gz: transcript sequences  
-  araip.K30076.gnm1.ann1.J37m.transcript_lowqual_or_TE.fna.gz: transcript sequences - low quality or transposable elements
+araip.K30076.gnm1.ann1.J37m.cds.fna.gz: Coding sequence
+araip.K30076.gnm1.ann1.J37m.genemodels_lowqual_or_TE.gff.gz: Gene models, low quality or transposable elements
+araip.K30076.gnm1.ann1.J37m.gene_models_main.gff.gz: Gene models, primary
+araip.K30076.gnm1.ann1.J37m.info_AED_scores.txt.gz: quality scores
+araip.K30076.gnm1.ann1.J37m.info_annot_AHRD.txt.gz: annotation from the AHRD pipeline
+araip.K30076.gnm1.ann1.J37m.info_annot_AHRD_slim.txt.gz: annotation from the AHRD pipeline - simplified
+araip.K30076.gnm1.ann1.J37m.protein.faa.gz: protein sequences 
+araip.K30076.gnm1.ann1.J37m.protein_annot_AHRD.faa.gz: protein sequences with AHRD functional descriptions
+araip.K30076.gnm1.ann1.J37m.protein_lowqual_or_TE.faa.gz: protein sequences - low quality or transposable elements   
+araip.K30076.gnm1.ann1.J37m.transcript.fna.gz: transcript sequences  
+araip.K30076.gnm1.ann1.J37m.transcript_lowqual_or_TE.fna.gz: transcript sequences - low quality or transposable elements
