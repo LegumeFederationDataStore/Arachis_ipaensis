@@ -55,3 +55,4 @@ changes:
   - 2018-05-01 updated GenBank accession number
   - 2018-07-11 Changed fasta header in all *.fna and *.faa files (perl -pi -e 's/>Araip/>araip.K30076.gnm1.ann1/')
   - 2018-09-15 Changed fasta header in all *.fna and *.faa files to include .1 suffixes and amend the above to the equivalent of (perl -pi -e 's/>Araip/>araip.K30076.gnm1.ann1.Araip/') to match the gff3
+  - 2020-09-18 Added gene family assignments file
